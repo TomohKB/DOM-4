@@ -1,0 +1,49 @@
+#wrapper {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 30px auto;
+}
+
+#anime_test {
+  height: 100px;
+  width: 100px;
+  background-color: #366cf4;
+  position: relative;
+  left: 50px;
+  transition: 2.5s;
+  border-radius: 1.5rem;
+}
+
+.anime_test-btn {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 5px 10px;
+  border: solid 1px;
+  cursor: pointer;
+}
+
+#anime_test.active {
+    background-color: #0435b0;
+    left: calc(100% - 150px);
+    border-radius: 3.5rem;
+}
+
+
+.push-btn {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 0.1em;
+  color: #fff;
+  border-radius: 0.5rem;
+  background-color: #eb6100;
+}
+
+
